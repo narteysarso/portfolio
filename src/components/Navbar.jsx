@@ -23,16 +23,20 @@ export function Navbar() {
                     <h2>NarteySarso</h2>
                     <Dropdown overlay={
                         <Menu>
-                            <Menu.Item>Me</Menu.Item>
+                            <Menu.Item>
+                                <a href="#about">Me</a>
+                            </Menu.Item>
                             <Menu.Item>
                                 <a href="#project">Portfolio</a>
                             </Menu.Item>
-                            <Menu.Item>Experience</Menu.Item>
+                            <Menu.Item>
+                                <a href="#experience"> Experience </a>
+                            </Menu.Item>
                             <Menu.Divider />
                             <Menu.Item>
-                                <a href="tel:(+233) 057 257 5885" >
+                                <a href="tel:(+233) 055 437 0252" >
                                 <Space align="middle">
-                                    <h3> (+233) 057 257 5885</h3>
+                                    <h3> (+233) 055 437 0252</h3>
                                     <Button shape="circle" icon={<PhoneOutlined rotate={90} />} />
                                 </Space>
                                 </a>
