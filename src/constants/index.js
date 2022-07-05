@@ -60,7 +60,7 @@ export const projects = [
     description: "Events in The Frontend | 7 min read - Published on 25 Jun, 2022",
     imageurl: "https://ipfs.io/ipfs/QmNqCPaAwUxhKzne4Aj8L4GAvwgZyeJ2awesy1b6ZerdYL",
     liveurl: "https://narteysarso.hashnode.dev/real-time-smart-contract-events-in-the-frontend",
-    
+    github: "https://github.com/narteysarso/using-smart-contract-in-frontend",
     tags: ["hardhat", "ethers", "solidity", "react",],
     category: "blog",
   },

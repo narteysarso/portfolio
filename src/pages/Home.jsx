@@ -19,7 +19,7 @@ export function Home() {
                 <Projects  />
                 </Content>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Hire me <a href="https://linkedin.com/in/narteykodjosarso" rel="no-referrer" target="_blank">Nartey Kodjo-Sarso </a> ©2021</Footer>
+            <Footer style={{ textAlign: 'center' }}>Hire me <a href="https://linkedin.com/in/narteykodjosarso" rel="noreferrer" target="_blank">Nartey Kodjo-Sarso </a> ©2021</Footer>
         </Layout>
     )
 }
