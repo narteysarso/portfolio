@@ -4,7 +4,7 @@ import { categories, projects } from "../constants";
 
 export function Projects() {
   return (
-    <Row className="container">
+    <Row className="container" id="project">
       <Col span={24}>
         <Typography.Title level={1}>Latest Works</Typography.Title>
       </Col>

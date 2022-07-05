@@ -1,4 +1,4 @@
-export const categories = ["celo", "ethereum", "web3"];
+export const categories = ["celo", "ethereum", "web3", "blog"];
 
 export const projects = [
   {
@@ -29,6 +29,15 @@ export const projects = [
     category: "celo",
   },
   {
+    title: "Genrez",
+    description: "This is a celo blockchain based music sharing website that allows creator/artist to share music with their funs.",
+    imageurl: "https://ipfs.io/ipfs/QmSjt6tgSdYxVH6T9EkhUjbAbCP3TWHLEPJ69ZnWA3umy5",
+    liveurl: "https://genrez-celo.vercel.app/",
+    github: "https://github.com/narteysarso/genrez-celo",
+    tags: ["hardhat", "web3js", "solidity", "react", "bootstrap", "theGraph"],
+    category: "celo",
+  },
+  {
     title: "IDX Token",
     description: "IDX EXCHANGE is a Dapp that allows you to buy IDX tokens with Ether. You can also transfer IDX tokens to others.",
     imageurl: "https://ipfs.io/ipfs/QmQpB7MAjkG7DjakYwrN1jUx1KvDhRvu8PaTeaGDkwE3Fa",
@@ -39,11 +48,20 @@ export const projects = [
   },
   {
     title: "Banking Dapp",
-    description: "some nice description",
+    description: "An etheruem DApp that allows users to deposit Eth in and withdraw Eth from a smart contract",
     imageurl: "https://ipfs.io/ipfs/QmYZ6p8zSZ2AL8pzzdhJJ6XXKX4g99HrKC1g2CFyGPCo7V",
     liveurl: "https://bank-dapp-pink.vercel.app",
     github: "https://github.com/narteysarso/bank-dapp",
     tags: ["hardhat", "ethers", "solidity", "react", "antdesign"],
     category: "ethereum",
+  },
+  {
+    title: "Real-Time Smart Contract",
+    description: "Events in The Frontend | 7 min read - Published on 25 Jun, 2022",
+    imageurl: "https://ipfs.io/ipfs/QmNqCPaAwUxhKzne4Aj8L4GAvwgZyeJ2awesy1b6ZerdYL",
+    liveurl: "https://narteysarso.hashnode.dev/real-time-smart-contract-events-in-the-frontend",
+    
+    tags: ["hardhat", "ethers", "solidity", "react",],
+    category: "blog",
   },
 ];

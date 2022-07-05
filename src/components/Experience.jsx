@@ -1,9 +1,8 @@
 import { Col, Row, Timeline, Typography } from "antd";
-import { ClockCircleOutlined } from "@ant-design/icons";
 
 export function Experience() {
   return (
-    <Row justify="center" className="container bg-white">
+    <Row justify="center" className="container bg-white" id="experience">
       <Col span={24}>
         <Typography.Title>My Work Experience</Typography.Title>
       </Col>

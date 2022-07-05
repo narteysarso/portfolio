@@ -3,7 +3,7 @@ import { Row, Col, Avatar, Space, Typography } from "antd";
 
 export function About() {
     return (
-        <Row  className="container">
+        <Row className="container" id="about">
             <Col xs={24} md={6} lg={8}>
                 <Row justify="space-between" align="middle">
                     <Col xs={8} md={24}>
@@ -24,8 +24,8 @@ export function About() {
             <Col xs={24} md={8} lg={8}>
                 <Row justify="center" align="middle" style={{height: "100%"}}>
                     <Avatar
-                        size={{ xs: 100, sm: 100, md: 100, lg: 100, xl: 100, xxl: 100 }}
-                        src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                        style={{width: "180px", height: "180px"}}
+                        src="https://ipfs.io/ipfs/QmZ9hZWjHyvHPkuZY9A8tGjTh8jtTYrJfbryxeWwveQBVQ"
                     />
                 </Row>
             </Col>

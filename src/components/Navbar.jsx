@@ -8,9 +8,9 @@ export function Navbar() {
                 <Row justify="space-between" align="middle">
                     <h2>NarteySarso</h2>
                     <Space size={"large"}>
-                        <Button ghost type="text" shape="round">Me</Button>
-                        <Button ghost type="text" shape="round">Portfolio</Button>
-                        <Button ghost type="text" shape="round">Experience</Button>
+                        <Button ghost type="text" shape="round" href="#about">Me</Button>
+                        <Button ghost type="text" shape="round" href="#project">Portfolio</Button>
+                        <Button ghost type="text" shape="round" href="#experience">Experience</Button>
                     </Space>
                     <Space align="middle">
                         <h3> (+233) 057 257 5885</h3>
@@ -24,7 +24,9 @@ export function Navbar() {
                     <Dropdown overlay={
                         <Menu>
                             <Menu.Item>Me</Menu.Item>
-                            <Menu.Item>Portfolio</Menu.Item>
+                            <Menu.Item>
+                                <a href="#project">Portfolio</a>
+                            </Menu.Item>
                             <Menu.Item>Experience</Menu.Item>
                             <Menu.Divider />
                             <Menu.Item>

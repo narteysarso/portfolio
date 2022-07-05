@@ -14,12 +14,12 @@ export function Home() {
             </Header>
             <Content>
                 <Content>
-                <About id="about"  />
-                <Experience id="experience" />
-                <Projects id="project" />
+                <About   />
+                <Experience  />
+                <Projects  />
                 </Content>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+            <Footer style={{ textAlign: 'center' }}>Hire me <a href="https://linkedin.com/in/narteykodjosarso" rel="no-referrer" target="_blank">Nartey Kodjo-Sarso </a> ©2021</Footer>
         </Layout>
     )
 }
