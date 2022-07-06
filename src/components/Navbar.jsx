@@ -9,8 +9,8 @@ export function Navbar() {
                     <h2>NarteySarso</h2>
                     <Space size={"large"}>
                         <Button ghost type="text" shape="round" href="#about">Me</Button>
-                        <Button ghost type="text" shape="round" href="#project">Portfolio</Button>
                         <Button ghost type="text" shape="round" href="#experience">Experience</Button>
+                        <Button ghost type="text" shape="round" href="#project">Portfolio</Button>
                     </Space>
                     <Space align="middle">
                     <h3> (+233) 055 437 0252</h3>
@@ -29,10 +29,10 @@ export function Navbar() {
                                 <a href="#about">Me</a>
                             </Menu.Item>
                             <Menu.Item>
-                                <a href="#project">Portfolio</a>
+                                <a href="#experience"> Experience </a>
                             </Menu.Item>
                             <Menu.Item>
-                                <a href="#experience"> Experience </a>
+                                <a href="#project">Portfolio</a>
                             </Menu.Item>
                             <Menu.Divider />
                             <Menu.Item>
