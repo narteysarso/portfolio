@@ -1,4 +1,4 @@
-import { MenuOutlined, PhoneOutlined } from "@ant-design/icons";
+import { GithubOutlined, LinkedinOutlined, MenuOutlined, PhoneOutlined } from "@ant-design/icons";
 import { Menu, Row, Col, Button, Space, Dropdown } from "antd";
 
 export function Navbar() {
@@ -13,8 +13,10 @@ export function Navbar() {
                         <Button ghost type="text" shape="round" href="#experience">Experience</Button>
                     </Space>
                     <Space align="middle">
-                        <h3> (+233) 057 257 5885</h3>
+                    <h3> (+233) 055 437 0252</h3>
                         <Button shape="circle" icon={<PhoneOutlined rotate={90} />} />
+                        <Button shape="circle" href="https://github.com/narteysarso" target="_blank" rel="noreferrer" icon={<GithubOutlined />} />
+                        <Button shape="circle" href="https://linkedin.com/in/narteykodjosarso" target="_blank" rel="noreferrer" icon={<LinkedinOutlined />} />
                     </Space>
                 </Row>
             </Col>
