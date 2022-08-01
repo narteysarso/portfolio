@@ -1,4 +1,4 @@
-export const categories = ["celo", "ethereum", "web3", "blog"];
+export const categories = ["celo", "ethereum", "web3", "blog", "audit"];
 
 export const projects = [
   {
@@ -63,5 +63,53 @@ export const projects = [
     github: "https://github.com/narteysarso/using-smart-contract-in-frontend",
     tags: ["hardhat", "ethers", "solidity", "react",],
     category: "blog",
+  },
+  {
+    title: "DOS Attack",
+    description: "This project demonstrates a smart contract DOS attack and prevention.",
+    imageurl: "https://ipfs.io/ipfs/QmaLvm5A4Z1rcW7UqdvSYDKvHj3584e9x4MR5JAKC2uTj3",
+    github: "https://github.com/narteysarso/dos-attack",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
+  },
+  {
+    title: ".delegatecall Attack",
+    description: "This project demonstrats a .delegatecall attack and prevention.",
+    imageurl: "https://ipfs.io/ipfs/QmZizMVXbik6hBfrMXxrB3JbPLV42hrskGoyJ5LxjzZWMX",
+    github: "https://github.com/narteysarso/delegate-call-attack",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
+  },
+  {
+    title: "Randomness Attack",
+    description: "This project demonstrates randomness attack and it fixes in solidity.",
+    imageurl: "https://ipfs.io/ipfs/QmNnPbciVoCbaHEhV7dTmRjNmioZbNjycYXxRcw2BwpXHe",
+    github: "https://github.com/narteysarso/randomness-attack",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
+  },
+  {
+    title: "Reentrancy Attack",
+    description: "This repo consist of various contracts to test and prevent reentrancy attack.",
+    imageurl: "https://ipfs.io/ipfs/QmZizMVXbik6hBfrMXxrB3JbPLV42hrskGoyJ5LxjzZWMX",
+    github: "https://github.com/narteysarso/reentrancy-attack-solidity",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
+  },
+  {
+    title: "tx.origin Attack",
+    description: "This project demonstrates a basic tx.origin attack and prevention",
+    imageurl: "https://ipfs.io/ipfs/QmZizMVXbik6hBfrMXxrB3JbPLV42hrskGoyJ5LxjzZWMX",
+    github: "https://github.com/narteysarso/tx.origin-attack",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
+  },
+  {
+    title: "Malicious Contract Attack",
+    description: "This project demonstrates a malicious attack and prevention",
+    imageurl: "https://ipfs.io/ipfs/QmNnPbciVoCbaHEhV7dTmRjNmioZbNjycYXxRcw2BwpXHe",
+    github: "https://github.com/narteysarso/malicious-attack",
+    tags: ["hardhat", "ethers", "solidity",],
+    category: "audit",
   },
 ];
